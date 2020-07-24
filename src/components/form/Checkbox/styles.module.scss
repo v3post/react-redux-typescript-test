@@ -1,0 +1,42 @@
+.checkbox {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+.input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #4a4a4a;
+  position: relative;
+  padding-left: 24px;
+}
+
+.icon,
+.iconChecked {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.07), inset 0 0 0 1px #d7d7d7;
+  background-color: #ffffff;
+}
+
+.iconChecked {
+  background: #3e8bdc;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.32)
+}
